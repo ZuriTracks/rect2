@@ -1,5 +1,4 @@
 function Datos(props){
-    const {alumno} = props;
     //destructurar datos del alumno desde las props
     const {nombre, apellido, curso} = props.alumno;
     return(
@@ -11,3 +10,5 @@ function Datos(props){
             <h2>Curso: {curso}</h2>
         </div>
     );
+}
+export default Datos;

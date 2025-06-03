@@ -1,11 +1,11 @@
-import saludos from './Saludos'
+import Saludos from './Saludos'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <saludos nombre="Juan"  apellido="Perez"/>
+      <Saludos nombre="Juan"  apellido="Perez"/>
     </>
   )
 }
